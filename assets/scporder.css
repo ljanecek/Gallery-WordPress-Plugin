@@ -1,0 +1,22 @@
+#easy-gallery li a{
+	display: none;
+	position: absolute;
+	bottom: 10px;
+	background: #2ea2cc;
+	color: #FFF;
+	text-decoration: none;
+	padding: 2px 6px;
+}
+
+#easy-gallery li a:hover{
+	text-decoration: underline;
+}
+
+#easy-gallery li:hover a{
+	display: block;
+}
+
+#easy-gallery .attachment{
+	width: 168px !important;
+	cursor: move;
+}
