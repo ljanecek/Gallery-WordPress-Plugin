@@ -146,7 +146,7 @@ function regenerate_attachment($post_id){
 
 
 
-function get_list_view($images){
+function get_list_view($images, $post){
 
 	$thumb = get_post_thumbnail_id($post->ID);
 	?>
